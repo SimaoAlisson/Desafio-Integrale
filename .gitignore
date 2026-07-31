@@ -1,0 +1,18 @@
+# Dependências
+node_modules/
+
+# Credenciais e ambiente local (NÃO versionar)
+.env
+.env.*
+!.env.example
+
+# Builds e caches
+dist/
+build/
+.vite/
+*.local
+
+# Logs e SO
+*.log
+.DS_Store
+Thumbs.db
